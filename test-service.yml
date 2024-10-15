@@ -2,9 +2,6 @@ server:
   port: 8088 # Config server? ??? ??
 
 spring:
-  application:
-    name: vet-service-1
-
   datasource:
     url: jdbc:mysql://localhost:3306/petclinic_msa
     username: root
