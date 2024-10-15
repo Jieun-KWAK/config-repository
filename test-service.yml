@@ -1,0 +1,15 @@
+server:
+  port: 8088 # Config server? ??? ??
+
+spring:
+  application:
+    name: test-server
+
+  #spring cloud ?? ?? ??
+  config:
+    import: "optional:configserver:"
+    cloud:
+      config:
+        uri: http://localhost:8888 #config server? url
+
+
